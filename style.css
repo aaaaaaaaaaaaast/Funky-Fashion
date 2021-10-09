@@ -105,7 +105,7 @@ figure img{
     padding: 2%;
 }
 
-.btn1{
+button{
    background-color: grey;
    border: solid;
    border-color: black;
@@ -116,14 +116,14 @@ figure img{
 
 }
 
-.btn1 span {
+button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.btn1 span :after {
+button span :after {
     content: '\00b';
     position: absolute;
     opacity: 0;
@@ -132,36 +132,13 @@ figure img{
     transition: 0.5s;
 }
 
-.btn1:hover span {
+button:hover span {
     padding-right: 25px;
 }
 
-.btn1:hover span::after {
+button span::after {
     opacity: 1;
     right: 0;
-}
-
-.btn2{
-    background-color: grey;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
-    width: 60px;
-    height: 30px;
-    border-radius: 4px;
-    transition: all 0.5s;
-    cursor: pointer;
-
-}
-
-.btn3{
-    background-color: grey;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
-    width: 60px;
-    height: 30px;
-    border-radius: 4px;
 }
 
 /*footer*/
